@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.scss";
+import Hello from "./hello";
 
 function App() {
   return (
@@ -15,9 +16,14 @@ function App() {
         >
           Learn React
         </a>
+        <hello />
       </header>
     </div>
   );
 }
 
 export default App;
+/**
+ * 2 loại component chính:
+ * class component và function component (function(),arrow function)
+ */
