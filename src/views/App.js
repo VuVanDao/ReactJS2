@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.scss";
-import Hello from "./ex/hello";
+import Hello from "./ex/Hello";
 
+//component dạng hàm
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <hello />
+        <Hello />
       </header>
     </div>
   );
