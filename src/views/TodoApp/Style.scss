@@ -1,0 +1,14 @@
+.list-todo-container {
+  width: 400px;
+  margin: 0 auto;
+  .list-todo-content {
+    .todo-child {
+      margin-top: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
+    }
+  }
+}
+button {
+  margin-left: 10px;
+}
